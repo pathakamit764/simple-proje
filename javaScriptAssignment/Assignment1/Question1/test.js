@@ -1,0 +1,9 @@
+var n = prompt("Enter the Numbe");
+var sum = 0;
+for(i=1; i<=n; i++){
+    sum+=i;
+}
+//console.log(sum);
+
+//document.write(sum);
+document.getElementById("demo").innerHTML = sum;
